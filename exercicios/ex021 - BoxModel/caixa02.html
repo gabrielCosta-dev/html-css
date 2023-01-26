@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: aliceblue;
+            margin: 0px;
+        }
+
+        header, main{
+            background-color: rgb(169, 102, 231);
+            padding: 10px;
+            margin: 10px;
+        }
+
+        main{
+            border-radius: 2px 10px;
+        }
+
+        nav{
+            background-color: black;
+            padding: 5px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.336);
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: aliceblue;
+            margin-right: 30px;
+        }
+
+        nav > a:hover{
+            background-color: aliceblue;
+            color: black;
+            border-radius: 4px;
+        }
+
+        article{
+            background-color:rgb(200, 153, 243);
+        }
+
+        article > aside{
+            background-color:rgb(185, 123, 243)
+        }
+
+        footer{
+            background-color: black;
+            color: aliceblue;
+            padding: 5px;
+            text-align: center;
+            margin: 0px;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+
+        /*div#bola{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background-color: brown;
+            margin: 10px;
+        }*/
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+
+        <nav>
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+            <a href="#">Link 4</a>
+            <a href="#">Link 5</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+
+        </section>
+
+        <section id="noticias">
+            <article>
+                <h2>Sobre Everton</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et tenetur, earum dolor at velit sed incidunt, aperiam consequuntur doloremque temporibus explicabo nostrum ad assumenda ut a architecto sequi nobis magnam.</p>
+                <aside>
+                    <p><strong>Artigo escrito por</strong> João Cancelo</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p><em>Desenvolvido por Gabriel Lima.</em></p>
+    </footer>
+
+    <div id="bola">
+
+    </div>
+</body>
+</html>

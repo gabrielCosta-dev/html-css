@@ -1,0 +1,171 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: 'iDroid';
+    src: url(../fontes/idroid.otf) format(opentype);
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+body{
+    background-color: #71EC8A;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Cabeçalho */
+header{
+    text-align: center;
+    padding: 10px;
+    background-image: linear-gradient(to bottom, #71EC8A, #1A6B2A);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.281);
+    /*margin: 0px auto 0px auto;*/
+}
+
+header > h1{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: none;
+}
+
+header > h1, header > p{
+    color: #fdfafa;
+    margin: 5px;
+    padding: 10px;
+}
+
+header > p{
+    width: 500px;
+    margin: 5px auto 15px auto;
+}
+
+#menu-principal{
+    list-style: none;
+    text-align: left;
+    color: #fdfafa;
+    font-size: 0.85em;
+}
+
+#menu-principal a{
+    text-decoration: none;
+    color: #fdfafa;
+    padding: 5px;
+    margin: 5px;
+}
+
+#menu-principal a:hover{
+    background-color: #fdfafa;
+    color: #21B53E;
+    border-radius: 5px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.301);
+}
+
+/* Principal */
+main{
+    min-width: 400px;
+    max-width: 800px;
+    margin: 0px auto 0px auto;
+    padding: 10px;
+    background-color: #fdfafa;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.281);
+}
+
+main h1, h2{
+    font-family: iDroid, cursive;
+    margin: 20px;
+}
+
+main h2{
+    background-image: linear-gradient(to right, #78fd937c 80%, #fdfafa);
+    width: 500px;
+    padding-left: 5px;
+}
+
+main p{
+    padding: 10px;
+    text-indent: 10px;
+    text-align: justify;
+}
+
+#video{
+    width: 100;
+    margin: 10px 0px 10px 0px;
+    background-color: #1A6B2A;
+}
+
+#video > iframe{
+    width: 100%;
+}
+
+.detalhe{
+    color: #146d27;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.detalhe:hover, .detalhe1:hover{
+    text-decoration: underline;
+}
+
+.detalhe1{
+    color: #146d27;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.detalhe::after{
+    content: '⋆';
+}
+
+.imagem{
+    margin: 0px 0px 0px auto;
+}
+
+/* Aside */
+aside{
+    background-color: #9df1ae;
+}
+
+aside > h3{
+    background-color: #218d37;
+    color: #fdfafa;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.452);
+    margin: 0px;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+aside > p{
+    text-align: justify;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.listas{
+    display: inline-block;
+}
+
+.listas > ul{
+    list-style: none;
+    margin: 10px 150px 10px 15px;
+}
+
+/* Rodapé */
+footer{
+    background-color: #134e1f;
+    text-align: center;
+    padding: 5px;
+    margin-top: 10px;
+    color: #fdfafa;
+    box-shadow: -2px -2px 10px rgba(0, 0, 0, 0.384);
+}
+
+.destaque-rodape{
+    font-size: 0.9em;
+    font-style: italic;
+    font-weight: bold;
+}
