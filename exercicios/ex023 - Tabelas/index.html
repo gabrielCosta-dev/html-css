@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            width: 400px;
+            border-collapse: collapse;
+        }
+
+        th{
+            background-color: blue;
+            color: white;
+            padding: 10px; border: 1px solid blue;
+        }
+
+        td{
+            border: 1px solid blue;
+            padding: 10px;
+        }
+
+        tr.linha{
+            background-color: aqua;
+        }
+
+        tr.linha1{
+            background-color: aquamarine;
+        }
+
+        td.dado:hover{
+            background-color: greenyellow;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Minha primeira tabela</h1>
+    <table>
+        <tr>
+            <th>Tabela Simples</th>
+        </tr>
+
+        <tr class="linha">
+            <td class="dado">A1</td>
+            <td class="dado">B1</td>
+            <td class="dado">C1</td>
+        </tr>
+
+        <tr class="linha1">
+            <td class="dado">A2</td>
+            <td class="dado">B2</td>
+            <td class="dado">C2</td>
+        </tr>
+
+        <tr class="linha">
+            <td class="dado">A3</td>
+            <td class="dado">B3</td>
+            <td class="dado">C3</td>
+        </tr>
+
+        <tr class="linha1">
+            <td class="dado">A4</td>
+            <td class="dado">B4</td>
+            <td class="dado">C4</td>
+        </tr>
+    </table>
+</body>
+</html>
