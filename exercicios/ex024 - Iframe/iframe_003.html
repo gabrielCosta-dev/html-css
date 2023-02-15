@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iframe</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .erro{
+            background-color: red; color: white;
+            padding: 10px; margin: auto;
+            text-align: center; border-radius: 5px;
+        }
+
+        iframe#tela{
+            width: 95vw; border: 2px solid black;
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Incidunt corporis, laboriosam consequatur dolores at, repellat vel similique repudiandae quos exercitationem quam error non obcaecati impedit expedita voluptate commodi deserunt accusantium.</p>
+
+    <ul>
+        <li><a href="paginas-extras/pagina001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/pagina002.html" target="frame" rel="noopener noreferrer">Segunda página</a></li>
+        <li><a href="paginas-extras/pagina003.html" target="frame" rel="noopener noreferrer">Terceira página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis modi voluptate qui dignissimos, itaque nam? Architecto odio deserunt aspernatur laborum obcaecati at incidunt est doloribus facere quo, quisquam quae error. Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ipsam ullam eaque rem perferendis quasi aliquam voluptas cum quos architecto, dignissimos, omnis natus facilis? Iste quae voluptates molestias suscipit harum!</p>
+
+    <iframe src="#" id="tela" name="frame">
+        <p class="erro">
+            Infelizmente seu navegador não é compatível com esta função!
+        </p>    
+    </iframe>
+</body>
+</html>
