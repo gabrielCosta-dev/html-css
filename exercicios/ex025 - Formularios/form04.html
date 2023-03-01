@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <style>
+        fieldset{
+            border: 1px solid beige;
+            background-color: antiquewhite;
+        }
+    </style>
+</head>
+<body>
+    <h1>Testando formulários</h1>
+    <form action="" method="get">
+    <fieldset>
+        <legend>Dados do usuário</legend>
+        <p><label for="iusu">Nome</label></p>
+        <input type="text" name="usu" id="iusu" required placeholder="Digite seu nome">
+
+        
+            <p><label for="itel">Telefone:</label></p>
+            <input type="tel" name="tel" id="itel" autocomplete="tel" pattern="^\(\d{2}\)\d{4,5}-\d{4}$" placeholder="(00)00000-0000">
+            <p><label for="iemail">Email:</label></p>
+            <input type="email" name="email" id="iemail">
+    </fieldset>
+        
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
