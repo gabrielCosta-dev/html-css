@@ -1,3 +1,6 @@
 @charset "UTF-8";
 
 /*Configurações para telas grandes ou em modo paisagem*/
+body{
+    background: url(../imagens/cev-landscape.jpg) no-repeat left bottom/contain;
+}
