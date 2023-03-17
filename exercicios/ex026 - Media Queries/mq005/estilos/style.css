@@ -26,8 +26,19 @@ header > h1{
     color: var(--cor0);
 }
 
+#burguer{
+    background-color: var(--cor3); color: var(--cor0);
+    display: block; text-align: center;
+    padding: 10px;
+}
+
+#burguer:hover{
+    background-color: var(--cor0); color: var(--cor3);
+    cursor: pointer;
+}
+
 nav{
-    display: block;
+    display: none;
 }
 
 nav > ul{
