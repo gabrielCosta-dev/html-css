@@ -1,4 +1,4 @@
-function mudosTamanho() {
+function mudouTamanho() {
      if (window.innerWidth >= 768){
           menu.style.display = 'block'
      } else {
