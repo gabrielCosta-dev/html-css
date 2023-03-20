@@ -47,12 +47,14 @@ nav > ul{
 
 nav a{
     display: block; padding: 10px; text-align: center;
-    text-decoration: none; border-top: 2px solid var(--cor1);
+    text-decoration: none; border-top: 1px solid var(--cor1);
+    border-right: 1px solid var(--cor1);
     color: var(--cor0);  background-color: var(--cor3);
 }
 
 nav a:hover {
-    background-color: #D92525; border-top: 2px solid var(--cor3);
+    background-color: #D92525; border-top: 1px solid var(--cor3);
+    border-right: 1px solid var(--cor3);
 }
 
 /* { -- Principal -- } */
