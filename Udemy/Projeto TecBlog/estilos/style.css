@@ -157,7 +157,7 @@ nav#menu-principal > a:hover{
    list-style-type: none;
  }
 
-                    /* ------- COnteúdos Laterais ------- */
+                    /* ------- Rodapé ------- */
 footer{
     padding: 10px;
     background-color: var(--cor1); color: var(--cor4);
