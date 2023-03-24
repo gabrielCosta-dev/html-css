@@ -74,13 +74,13 @@ nav#menu-principal > a:hover{
 #principal{
     width: 920px;
     margin: 15px auto;
-    overflow: hidden;
 }
 
 #postagens {
     font-size: 1.2em;
     width: 660px;
     float: left;
+    border-radius: 5px;
 }
 
 .postagem{
