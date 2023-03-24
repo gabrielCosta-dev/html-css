@@ -20,11 +20,16 @@ a{
     text-decoration: none;
 }
 
+.limpar{
+    clear: both;
+}
+
                 /*  ------- Cabeçalho ------- */
 header{
     background-color: var(--cor1);
     text-align: center;
     padding: 10px;  
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.432);
 }
 
 header > h1{
@@ -48,32 +53,91 @@ nav#menu-principal > a:hover{
 }
 
                     /* ------- Principal ------- */
-main{
-    width: 600px;
-    margin: 15px auto; padding: 20px;
-    position: relative;  background-color: #e6e1e1;
+main#principal{
+    width: 750px;
+    margin: 15px auto;
+    position: relative; background-color: white;
+    float: left;
+    left: 10%;
 }
 
-main section {
-    background-color: white;
+section#postagens {
+    padding: 20px;
+    font-size: 1.2em;
 }
 
-main article{
-    margin-bottom: 150px;
+article.postagem{
+    margin-bottom: 15px;
 }
 
-main h1{
+.postagem h1{
     font-size: 2em;
     color: var(--cor1);
     margin: 5px 10px 0px 0px;
 }
 
-main h5{
+.postagem h5{
     color: #808080; 
     padding: 5px; margin: 0px 10px 10px 0px;
 }
 
-main img{
+.postagem img{
     width: 100%;
     display: block;
+}
+
+.postagem a, section#recentes a, section#categorias a{
+    color: var(--cor1);
+}
+
+.postagem a:hover, section#recentes a:hover, section#categorias a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+                        /* ------- COnteúdos Laterais ------- */
+ section#recentes, section#categorias{
+    width: 20%;
+    background-color: white;
+    margin: 15px;
+    position: absolute;
+    left: 68%;
+ }
+
+ section#categorias{
+    top: 60%;
+ }
+
+ section > aside{
+    width: 100%;
+    padding: 10px;
+ }
+
+ section#recentes h2, section#categorias h2{
+    font-size: 1.3em; color: black;
+     background-color: #d6d1d1;
+    position: relative;
+    right: 4%;
+ }
+
+ section#recentes h2{
+    padding: 10px; margin: 5px; width: 90%;
+ }
+
+ section#categorias a{
+    font-size: 1.2em;
+ }
+
+ section#categorias ul{
+   list-style-type: none;
+ }
+
+                    /* ------- COnteúdos Laterais ------- */
+footer{
+    padding: 10px;
+    background-color: var(--cor3);
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    font-style: italic; font-size: 1.1em;
 }
