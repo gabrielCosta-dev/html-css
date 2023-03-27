@@ -26,10 +26,11 @@ ul > li > a{
     color: black;
     text-decoration: none; text-indent: 30px;
     line-height: 40px;
-    background: url(../imgs-barra-vertical/menu.png) no-repeat left bottom;
+    background: #f7b600 url(../imgs-barra-vertical/menu.png) no-repeat left bottom;
 }
 
 ul > li > a:hover{
     background-position: right bottom;
+    background-color: #f99200;
     color: white;
 }
