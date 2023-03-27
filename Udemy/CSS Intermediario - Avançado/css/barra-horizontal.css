@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+*{
+    padding: 0; margin: 0;
+}
+
+h2{
+    text-align: left; padding: 5px; margin: 10px;
+}
+
+ul#navegação{
+    list-style-type: none;
+    width: 920px;
+    background: #159cb0 url(../imagens/fundo-horizontal.png) repeat-x;
+    float: left;
+    margin: 5px;
+}
+
+ul li{
+    float: left;
+    height: 40px;
+}
+
+ul li a{
+    display: block; padding: 0 2em;
+    text-decoration: none; color: #fff;
+    line-height: 2em;
+    background: url(../imagens/divisor.png) repeat-y;
+}
+
+ul li a:hover{
+    background-color: #44cade; color: #085662;
+}
+
+ul .primeiro a{
+    background: none;
+}
+
+#home #navegação .home a{
+    background-color: #44cade; color: #085662;
+}
