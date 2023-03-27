@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+*{
+    padding: 0; margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+    list-style-type: none;
+    margin: 10px;
+    width: 200px;
+}
+
+ul>li{
+    border-bottom: 1px solid black;
+    /* background: url(../imgs-barra-vertical/seta.png) no-repeat left center; */
+}
+
+ul>li.último{
+    border-bottom: none;
+}
+
+ul > li > a{
+    display: block;
+    width: 200px; height: 40px;
+    color: black;
+    text-decoration: none; text-indent: 30px;
+    line-height: 40px;
+    background: url(../imgs-barra-vertical/menu.png) no-repeat left bottom;
+}
+
+ul > li > a:hover{
+    background-position: right bottom;
+    color: white;
+}
