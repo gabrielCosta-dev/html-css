@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+*{
+    color: gray;
+}
+
+/* body{
+    color: brown;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ */
+
+#pagina h2{
+    color: purple;
+}
+
+h2{
+    color: black;
+}
