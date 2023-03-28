@@ -6,8 +6,9 @@ body{
 }
 
 main#container{
-    width: 720px; margin: 0 auto;
+    width: 80%; margin: 0 auto;
     background-color: #fff;
+    min-width: 600px;
 }
 
 header#marca{
@@ -17,24 +18,24 @@ header#marca{
 }
 
 section#conteudo{
-    width: 520px;
+    width: 72%;
     float: right;
 }
 
 article#conteudo-principal{
-    width: 300px;
+    width: 58%;
     float: left;
 }
 
 article#conteudo-secundario{
-    width: 200px;
+    width: 38%;
     float: right;
     background: #d1d1d1;
     padding: 5px;
 }
 
 nav#navegacao{
-    width: 180px;
+    width: 25%;
     float: left;
     padding-top: 20px; padding-bottom: 20px;
     background-color: #d1d1d1;
@@ -60,4 +61,5 @@ footer#rodape{
     clear: both;
     background-color: #c4c4c4;
     padding: 5px;
+    text-align: center;
 }
