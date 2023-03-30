@@ -25,7 +25,6 @@ main{
     margin: 0 auto;
 }
 
-
                             /* Cabeçalho */
 header{
     height: 150px; width: 920px;
@@ -40,7 +39,7 @@ header h1.logo{
     text-indent: -800px;
 }
 
-nav ul{
+ul{
     margin: 0; padding: 0;
     list-style-type: none;
 }
@@ -73,8 +72,9 @@ nav#nav-principal ul li a:hover{
 
                             /* Principal */
 section#conteudo{
-    margin-top: 60px;
+    margin-top: 60px; margin-bottom: 20px;
     background-color: #f5f5f5;
+    float: left;
 }
 
 section#primario, section#secundario{
@@ -82,20 +82,78 @@ section#primario, section#secundario{
     float: left;
 }
 
+#duas-colunas section#primario{
+    width: calc(750px - 195px);
+    margin: 0 0 20px 195px;
+}
+
+#uma-coluna section#primario{
+    width: 750px;
+    margin: 0 0 20px 0;
+}
+
 section#primario{
-    background-color: red;
     margin: 0 0 20px 195px;
 }
 
 section#secundario{
-    background-color: blue;
     margin: 0 0 20px 15px;
 }
 
+#duas-colunas aside#lateral{
+    float: left;
+    margin: -43px 0 20px 0px;
+}
+
 aside#lateral{
-    width: 180px; background-color: green;
+    width: 180px;
     float: left;
     margin: 0 0 20px -750px;
+}
+
+                                /* Caixa */
+.caixa{
+    margin: 10px 0; padding: 5px;
+    background: #f3f3f3 url(../imagens/fundo-caixa.png);
+}
+
+h2{
+    font-size: 1em;
+    background-color: #294c71; color: #fff;
+    padding: 5px;
+}
+
+.caixa-conteudo{
+    background-color: #fff;
+    padding: 5px; margin-top: 5px;
+}
+
+#lateral ul a{
+    display: block;
+    font-size: 0.9em; line-height: 30px; text-decoration: none;
+    padding: 3px; color: #000; border-bottom: 1px solid #f3f3f3;
+}
+
+#lateral ul a:hover{
+    background: #f9f9f9 url(../imagens/marcador.png) no-repeat left center;
+    color: #a1a1a1; padding-left: 20px;
+}
+
+label{
+    display: block; cursor: pointer;
+}
+
+input{
+    font-size: 0.9em; background-color: #fff;
+    padding: 5px; width: 100%;
+}
+
+input[type="submit"]{
+    width: 95px; cursor: pointer;
+    background-color: #b10333;
+    border: 2px solid #870529;
+    margin-top: 2px; color: #fff;
+    border-radius: 5px;
 }
 
                                 /* Rodapé */
