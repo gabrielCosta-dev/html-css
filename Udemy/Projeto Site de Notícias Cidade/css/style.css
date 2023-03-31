@@ -91,13 +91,33 @@ section#primario, section#secundario{
 }
 
 #duas-colunas section#primario{
-    width: calc(750px - 195px);
-    margin: 0 0 20px 195px;
+    float: left;
+    width: 530px;
+}
+
+#duas-colunas section#primario p{
+    text-align: justify;
+    padding: 5px; line-height: 1.5em;
 }
 
 #uma-coluna section#primario{
     width: 750px;
     margin: 0 0 20px 0;
+}
+
+#uma-coluna section#primario h1{
+    background-color: #69001d; color: #fff;
+    padding: 10px; font-size: 1.3em;
+}
+
+#uma-coluna section#primario p{
+    padding: 5px; line-height: 1.5em;
+    text-align: justify;
+}
+
+#uma-coluna section#primario figcaption{
+    font-style: italic; font-size: 0.7em;
+    text-align: center; margin-bottom: 10px;
 }
 
 section#primario{
@@ -109,8 +129,8 @@ section#secundario{
 }
 
 #duas-colunas aside#lateral{
+    width: 200px;
     float: left;
-    margin: -43px 0 20px 0px;
 }
 
 aside#lateral{
@@ -163,6 +183,34 @@ h3{
     background-color: #de003e; color: #000;
 }
 
+/* Lista-notícias */
+#lista-notícias li{
+    padding: 2px; height: 62px;
+    border-bottom: 1px solid #ccc
+}
+
+#lista-notícias li > a > img{
+    width: 80px; float: left;
+    margin: 5px; border: none;
+}
+
+#lista-notícias a{
+    text-decoration: none; font-size: 0.7em;
+    color: #294c71;
+}
+
+#lista-notícias a h3{
+    font-size: 0.8em;
+}
+
+#lista-notícias li:hover{
+    background-color: #ccc
+}
+
+#secundario #lista-notícias a h3{
+    color: #eee;
+}
+
 /* Formulários */
 label{
     display: block; cursor: pointer;
@@ -184,7 +232,7 @@ input[type="submit"]{
                                 /* Rodapé */
 footer{
     background-color: #294c71; 
-    padding: 20px;
+    padding: 20px; text-align: center;
 }
 
 footer > p{
