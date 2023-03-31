@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+*{
+    padding: 0; margin: 0;
+}
+
+:root{
+    --cor1: #dbcd87; --cor2: #b5ab56; --cor3: #8b8448; --cor4: #a29750;
+    --cor5: #fff5b0;
+
+    --fonte-principal: Helvetica, "Trebuchet MS", sans-serif;
+}
+
+/* Cabeçalho */
+header{
+    background: url(../imagens/topo-imagem-principal.png) no-repeat center center/cover;
+    width: 100vw; height: 40vh;
+    float: left;
+    overflow: hidden;
+}
+
+header a{
+    text-transform: uppercase; text-decoration: none;
+    padding: 5px;
+}
+
+header img{
+    position: relative;
+    top: 1px; left: 100px;
+}
+
+header > nav{
+    width: 40%; height: 40vh;
+    background: transparent url(../imagens/topo-imagem-lateral.png) no-repeat left center/cover;
+    float: right;
+}
+
+header nav p{
+    margin: 15px 15px 10px 85px; padding: 5px;
+    font-size: 0.9em; color: var(--cor3);
+    border-top: 1px solid var(--cor3); border-bottom: 1px solid var(--cor3);
+    float: left;
+}
+
+header nav p a{
+    margin-left: 5px; font-size: 0.8em;
+    color: var(--cor1); background-color: var(--cor3);
+    border-radius: 5px; float: right;
+}
+
+header nav ul{
+    list-style-type: none;
+    margin: 15px 15px 10px 85px;
+}
+
+header nav > ul > li{
+    padding: 5px;
+}
+
+header nav > ul > li a{
+    color: var(--cor3); font-size: 0.9em;
+}
+
+header nav > ul > li a:hover{
+    background-color: var(--cor5);
+}
+
+header nav > #depoimento{
+    position: relative;
+    top: -160px; left: 250px;
+}
