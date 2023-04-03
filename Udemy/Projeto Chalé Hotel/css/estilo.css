@@ -11,6 +11,10 @@
     --fonte-principal: Helvetica, "Trebuchet MS", sans-serif;
 }
 
+html{
+    width: 100vw; height: 100vh;
+}
+
 body{
     font-family: var(--fonte-principal);
     background: #fff url(../imagens/bg.png);
@@ -21,8 +25,7 @@ body{
 main{
     background: #ede9cc url(../imagens/bg-container.png) top center repeat-y;
 	margin: 0 auto;
-	min-width: 740px;
-	max-width: 1180px;
+	min-width: 740px; max-width: 1180px;
 }
 
 /* Cabeçalho */
@@ -89,4 +92,36 @@ nav > ul a:hover{
 
 nav #depoimento{
     position: relative; top: -130px; right: -200px;
+}
+
+/* Principal */
+main > section#area-principal{
+    background: url(../imagens/bg-area-principal.png) repeat-x;
+    width: 50%;
+    float: left;
+}
+
+main > section#area-principal h2{
+    font-size: 1.2em; color: var(--cor3);
+    padding: 25px 25px 0px 25px;
+}
+
+main > section#area-principal p{
+    font-size: 1.2em; text-align: justify;
+    padding: 10px 25px; font-size: 1em;
+}
+
+main > section#area-lateral{
+    background: url(../imagens/bg-area-lateral.png) repeat-x;
+    width: 50%;
+    float: left;
+}
+
+/* Lateral */
+main > section#area-lateral a{
+    margin-top: 15px;
+}
+
+main > section#area-lateral img{
+    width: 30%; float: left;
 }
