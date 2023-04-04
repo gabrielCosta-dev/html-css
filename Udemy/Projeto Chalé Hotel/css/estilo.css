@@ -79,6 +79,7 @@ nav > ul{
     list-style-type: none;
     margin: 10px 10px 10px 80px;
     text-transform: uppercase;
+    float: left;
 }
 
 nav > ul a{
@@ -91,7 +92,8 @@ nav > ul a:hover{
 }
 
 nav #depoimento{
-    position: relative; top: -130px; right: -200px;
+    /* position: relative; top: -130px; right: -200px; */
+    float: right; margin-right: 3px;
 }
 
 /* Principal */
