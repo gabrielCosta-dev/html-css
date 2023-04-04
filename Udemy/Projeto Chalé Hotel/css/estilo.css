@@ -118,10 +118,41 @@ main > section#area-lateral{
 }
 
 /* Lateral */
+main > section#area-lateral ul{
+    list-style-type: none;
+    padding: 25px;
+}
+
+main > section#area-lateral li{
+    padding: 10px;
+    background: url(../imagens/ornamento.png) no-repeat right top;
+}
+
 main > section#area-lateral a{
-    margin-top: 15px;
+    color: #000; text-decoration: none;
+}
+
+main > section#area-lateral li:hover{
+    background: var(--cor5) url(../imagens/ornamento.png) no-repeat right top;
+}
+
+main > section#area-lateral h3{
+    font-size: 0.9em; color: var(--cor3);
+    margin: 12px 5px 5px 5px;
+}
+
+main > section#area-lateral p{
+    font-size: 0.8em; padding: 5px;
 }
 
 main > section#area-lateral img{
     width: 30%; float: left;
+    display: block; margin: 10px;
+}
+
+/* Rodapé */
+footer{
+    background-color: #fff; color: var(--cor3);
+    padding: 10px;
+    text-align: right;
 }
