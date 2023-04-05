@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+#conteudo{
+    background-color: #dcdcdc;
+    height: 400px;
+    display: flex;
+}
+
+.item{
+    background-color: #fff; border: 1px solid #000;
+    margin: 10px;
+}
