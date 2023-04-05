@@ -127,7 +127,6 @@ main > section#area-lateral ul{
 
 main > section#area-lateral li{
     padding: 10px;
-    background: url(../imagens/ornamento.png) no-repeat right top;
 }
 
 main > section#area-lateral a{
@@ -135,10 +134,12 @@ main > section#area-lateral a{
 }
 
 main > section#area-lateral li:hover{
-    background: var(--cor5) url(../imagens/ornamento.png) no-repeat right top;
+    background: var(--cor5);
+    cursor: pointer;
 }
 
 main > section#area-lateral h3{
+    background: url(../imagens/ornamento.png) no-repeat right center;
     font-size: 0.9em; color: var(--cor3);
     margin: 12px 5px 5px 5px;
 }
