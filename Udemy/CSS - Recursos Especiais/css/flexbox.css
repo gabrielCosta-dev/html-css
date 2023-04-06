@@ -2,11 +2,24 @@
 
 #conteudo{
     background-color: #dcdcdc;
-    height: 400px;
+    height: 400px;/*  width: 230px; */
     display: flex;
+
+    /* row| row-reverse | column| column-reverse */
+    flex-direction: row;
+
+    /* wrap| nowreap| wrap-reverse */
+    flex-wrap: nowrap;
+
+    /* flex-start| flex-end | center| space-between | space-around */
+    justify-content: space-around;
+
+    /* stretch | center| flex-start | flex-end | baseline */
+    align-items: baseline;
 }
 
 .item{
     background-color: #fff; border: 1px solid #000;
     margin: 10px;
+    /* width: 100px; height: 100px; */
 }
