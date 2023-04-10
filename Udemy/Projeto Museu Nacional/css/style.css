@@ -1,0 +1,50 @@
+@charset "UTF-8";
+
+/* Estrutura do site */
+body{
+    background: #f4f2ec url(../img/fundo.png) repeat-x;
+    font: 12px "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+}
+
+main{
+    width: 1080px; margin: 0 auto;
+}
+
+a{
+    text-decoration: none; color: #af670a;
+}
+
+a:hover{
+    color: #227115;
+}
+/* Cabeçalho */
+header{
+    padding: 15px 0; height: 55px;
+}
+
+#logo a{
+    width: 248px; height: 21px;
+    text-indent: -9999px;
+    display: block;
+    background: url(../img/logo.png) no-repeat;
+}
+
+header > nav > ul{
+    list-style: none;
+    margin: 20px;
+    float: right;
+}
+
+header > nav > ul > li{
+    float: left;
+}
+
+header > nav > ul > li > a{
+    display: block; font-size: 1em;
+    margin-right: 25px; padding-bottom: 3px;
+    text-transform: uppercase;
+}
+
+header > nav > ul > li > a:hover{
+    border-bottom: 1px solid #535858;
+}
