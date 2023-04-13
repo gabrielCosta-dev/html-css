@@ -29,6 +29,36 @@
             </nav>
         </header>
         
+        <div id="principal">
+            <div id="conteudo">
+                <section id="capa">
+                    <img src="img/museu.png" alt="">
+                </section>
+            </div>
+        </div>
+
+        <aside>
+            <section id="depoimento">
+                <img src="img/depoimento.png" alt="">
+            </section>
+
+            <section id="visita">
+                <h4>Faça uma visita</h4>
+                <form action="visita.js" method="post">
+                    <fieldset>
+                        <legend>Selecione uma data</legend>
+                        <label for="data">Data</label>
+                        <input type="date" class="campo" name="data" id="data">
+
+                        <label for="qtd">Qtd de pessoas</label>
+                        <input type="number" class="campo" name="qtd" id="qtd" value="1" max="12" min="1">
+                    </fieldset>
+                    
+                    <input type="submit" value="Verificar disponibilidade">
+                </form>
+            </section>
+        </aside>
+
     </main>
 </body>
 </html>
