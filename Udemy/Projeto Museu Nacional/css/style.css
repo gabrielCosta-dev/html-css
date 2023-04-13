@@ -61,6 +61,7 @@ header > nav > ul > li > a:hover{
 aside{
     float: right; width: 350px;
     background-color: #ebe7dd;
+    padding-bottom: 30px;
 }
 
 aside > section#visita{
@@ -71,6 +72,26 @@ aside > section#visita{
 aside > section#visita h4{
     color: #86521a; text-transform: uppercase;
     padding-bottom: 3px; margin-bottom: 0;
+}
+
+/* Galeria de fotos */
+aside > section#galeria{
+    padding: 0 27px;
+}
+
+aside > section#galeria h1{
+    color: #9b9271;
+}
+
+aside > section#galeria a{
+    display: block; float: left;
+    background: url(../img/fundo-foto.png) no-repeat;
+    padding: 17px 15px; margin: 10px 0 0px 20px;
+}
+
+aside > section#galeria img{
+    width: 93px; height: 93px;
+    margin-left: 2px; margin-top: 3px;
 }
 
 /* Formulários */
