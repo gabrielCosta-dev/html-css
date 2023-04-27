@@ -33,63 +33,65 @@
     btn-outline-<formato>
     -->
     <h3>Botões com contorno</h3>
-    <button class="" type="button">Clique</button>
+    <button class="btn btn-outline-primary" type="button">Clique</button>
 
     <!-- Tamanhos de botões
     opções: btn-lg, btn-sm, btn-block
     -->
     <h3>Tamanhos dos botões</h3>
-    <button class="" type="button">Grande</button>
-    <button class="" type="button">Pequeno</button>
+    <button class="btn btn-lg btn-info" type="button">Grande</button>
+    <button class="btn btn-sm btn-warning" type="button">Pequeno</button>
     <br><br>
-    <button class="" type="button">Bloco</button>
+    <button class="btn btn-block btn-dark" type="button" data-toggle="button">Bloco</button>
 
     <!-- Estados dos botões
     opções: active, disabled
     -->
     <h3>Estados de botões</h3>
-    <button class="" type="button">Normal</button>
-    <button class="" type="button">Ativo</button>
-    <button class="" type="button">Inativo</button>
+    <button class="btn btn-outline-warning" type="button">Normal</button>
+    <button class="btn btn-warning active" type="button">Ativo</button>
+    <button class="btn btn-warning disabled" type="button" disabled>Inativo</button>
     <br><br>
-    <button class="" type="button">Alternar</button>
+    <button class="btn btn-warning" type="button">Alternar</button>
 
     <h3>Grupos de botões - horizontal</h3>
-    <div>
-        <button class="" type="button">Esquerda</button>
-        <button class="" type="button">Centro</button>
-        <button class="" type="button">Direita</button>
+    <div class="btn-group">
+        <button class="btn btn-info" type="button">Esquerda</button>
+        <button class="btn btn-outline-info" type="button">Centro</button>
+        <button class="btn btn-info" type="button">Direita</button>
     </div>
 
     <h3>Grupos de botões - vertical</h3>
-    <div>
-        <button class="" type="button">Topo</button>
-        <button class="" type="button">Meio</button>
-        <button class="" type="button">Fundo</button>
+    <div class="btn-group-vertical">
+        <button class="btn btn-outline-danger" type="button">Topo</button>
+        <button class="btn btn-danger" type="button">Meio</button>
+        <button class="btn btn-outline-danger" type="button">Fundo</button>
     </div>
 
     <h3>Toolbar de botões</h3>
-    <div>
-        <div>
-           <button class="" type="button">1</button>
-           <button class="" type="button">2</button>
-           <button class="" type="button">3</button>
+    <div class="btn-toolbar">
+        <div class="btn-group">
+           <button class="btn btn-dark" type="button">1</button>
+           <button class="btn btn-dark" type="button">2</button>
+           <button class="btn btn-dark" type="button">3</button>
         </div>
-        <div>
-            <button class="" type="button">4</button>
-            <button class="" type="button">5</button>
+        <div class="btn-group">
+            <button class="btn btn-outline-dark" type="button">4</button>
+            <button class="btn btn-outline-dark" type="button">5</button>
         </div>
     </div>
 
     <h3>Botões dropdown</h3>
-    <div>
-        <button class="" type="button">
+    <div class="dropdown">
+        <button class="btn btn-outline-success dropdown-toggle" data-toggle="dropdown" type="button">
             Clique
         </button>
-        <div>
-            <a href="#" class="">Link 1</a>
-            <a href="#" class="">Link 2</a>
-            <a href="#" class="">Link 3</a>
+        <div class="dropdown-menu">
+            <div class="dropdown-header">Título</div>
+            <a href="#" class="dropdown-item">Link 1</a>
+            <div class="dropdown-divider"></div>
+            <a href="#" class="dropdown-item">Link 2</a>
+            <a href="#" class="dropdown-item">Link 3</a>
         </div>
     </div>
     
