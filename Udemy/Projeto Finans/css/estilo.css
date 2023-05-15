@@ -1,5 +1,10 @@
 @charset "UTF-8";
 
+#nav-principal .hover a:hover{
+	color: #f5f5f5;
+	transition: 0.3s;
+}
+
 #home {
 	background-color: #ffc107;
 	color: #f5f5f5;
