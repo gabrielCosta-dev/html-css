@@ -9,3 +9,7 @@
 	background-color: #ffc107;
 	color: #f5f5f5;
 }
+
+.borda{
+	border-bottom: 1px solid #e5e5e5;
+}
