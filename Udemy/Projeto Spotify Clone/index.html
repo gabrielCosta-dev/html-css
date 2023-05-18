@@ -18,11 +18,13 @@
     <!-- Estilo customizado -->
     <link rel="stylesheet" type="text/css" href="css/estilo.css">
 
+    <link rel="stylesheet" href="css/medias.css" media="all">
+
     <title>Música para todos - Spotify</title>
   </head>
   <body>
     <header><!-- inicio Cabecalho -->
-      <nav class="navbar navbar-expand-md navbar-light fixed-top">
+      <nav class="navbar navbar-expand-md navbar-light fixed-top navbar-transparente">
         <div class="container">
           <a href="index.html" class="navbar-brand">
             <img src="imagens/spotify.svg" width="142">
@@ -40,11 +42,11 @@
               <li class="nav-item ">
                 <a href="" class="nav-link">Ajuda</a>
               </li>
-              <li class="nav-item ">
+              <li class="nav-item">
                 <a href="" class="nav-link">Baixar</a>
               </li>
 
-              <li class="nav-item">|</li>
+              <li class="nav-item divisor h-25 my-md-2 mx-md-3 d-none d-md-inline-block">|</li>
 
               <li class="nav-item ">
                 <a href="" class="nav-link">Inscrever-se</a>
@@ -58,7 +60,23 @@
       </nav>
     </header><!--/fim Cabecalho -->
 
-    
+    <!-- Início seção de conteúdos -->
+    <section id="home" class="d-flex">
+      <div class="container align-self-center capa">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="">Música para todos</h1>
+            <a href="#" target="_blank" rel="noopener noreferrer" class="btn btn-custom btn-lg btn-roxo">
+              Aproveite o Spotify Free
+            </a>
+
+            <a href="#" target="_blank" rel="noopener noreferrer" class="btn btn-custom btn-lg btn-branco">
+              Obter Spotify Premium
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
 
     <!-- JavaScript (Opcional) -->
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->

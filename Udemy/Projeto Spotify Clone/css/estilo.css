@@ -1,8 +1,71 @@
 @charset "UTF-8";
 
 /* Layout */
+html, body, #home{
+    height: 100vh;
+}
+
 body{
     background: url(../imagens/capa.png), url(../imagens/ruido.png),
      linear-gradient(50deg, #ff4169, #7626f8);
-     background-attachment: fixed;
+    background-attachment: fixed;
+    font-family: Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+/* Barra de Navegação */
+nav.navbar-transparente{
+    padding: 15px 0px;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #9bf0e1;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgb(255,255,255);
+    border-color: rgba(0,0,0,.1);
+}
+
+.divisor{
+    width: 1px; background: #fff;
+}
+
+/* Capa */
+.capa{
+    text-align: center;
+}
+
+.btn-custom{
+    color: #fff; text-transform: uppercase;
+    border-radius: 500px;
+    transition: background 0.4s, color 0.4s;
+    padding: 10px 20px;
+}
+
+.btn-roxo{
+    background-color: #7c25f8;
+}
+
+.btn-roxo:hover{
+    background-color: #6207e3; color: #fff;
+}
+
+.btn-branco{
+    color: #FFF; border: 2px solid #fff;
+}
+
+.btn-branco:hover{
+    background-color: #FFF; color: #000;
+}
+
+/* Tipografia */
+h1{
+    font-weight: 900; letter-spacing: -0.05em;
+    margin-bottom: 50px; color: #fff;
 }
