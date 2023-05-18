@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 @charset "UTF-8";
 
 /* Layout */
@@ -7,10 +14,13 @@ html, body, #home{
 
 body{
     background: url(../imagens/capa.png), url(../imagens/ruido.png),
+     -o-linear-gradient(40deg, #ff4169, #7626f8);
+    background: url(../imagens/capa.png), url(../imagens/ruido.png),
      linear-gradient(50deg, #ff4169, #7626f8);
     background-attachment: fixed;
     font-family: Helvetica, Arial, sans-serif;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 
 /* Barra de Navegação */
@@ -44,6 +54,8 @@ nav.navbar-transparente{
 .btn-custom{
     color: #fff; text-transform: uppercase;
     border-radius: 500px;
+    -webkit-transition: background 0.4s, color 0.4s;
+    -o-transition: background 0.4s, color 0.4s;
     transition: background 0.4s, color 0.4s;
     padding: 10px 20px;
 }
