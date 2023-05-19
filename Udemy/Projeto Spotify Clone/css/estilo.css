@@ -9,7 +9,7 @@
 
 /* Layout */
 html, body, #home{
-    height: 100vh;
+    height: 100vh; overflow-x: hidden;
 }
 
 body{
@@ -85,6 +85,10 @@ nav.navbar-transparente{
     font-size: 2.8em; padding-bottom: 10px;
 }
 
+#servicos p{
+    color: #000;
+}
+
 #servicos h2, h3{
     color: #7c25f8;
 }
@@ -95,6 +99,13 @@ nav.navbar-transparente{
 
 #recursos h2, p{
     color: #fff;
+}
+
+.rotacionar{
+    -webkit-transform: rotate(30deg);
+        -ms-transform: rotate(30deg);
+            transform: rotate(30deg);
+    padding-left: 80px;
 }
 
 /* Tipografia */
