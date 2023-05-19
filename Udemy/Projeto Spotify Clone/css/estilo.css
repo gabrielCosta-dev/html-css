@@ -108,6 +108,36 @@ nav.navbar-transparente{
     padding-left: 80px;
 }
 
+/* Rodapé */
+footer{
+    background-color: #000;
+    padding: 50px 0px 20px 0;
+    position: relative;
+}
+
+footer h4{
+    color: #919496; font-size: 0.8em; text-transform: uppercase;
+}
+
+footer .navbar-nav a{
+    color: #fff; font-size: 0.8em;
+}
+
+footer .navbar-nav a:hover{
+    color: #9bf0e1; text-decoration: none;
+}
+
+footer ul{
+    list-style: none;
+}
+
+footer ul li{
+    float: right; margin: 0 5px;
+}
+
+footer ul li img:hover{
+    border: 1px dashed #9bf0e1; border-radius: 50%;
+}
 /* Tipografia */
 h1{
     font-weight: 900; letter-spacing: -0.05em;

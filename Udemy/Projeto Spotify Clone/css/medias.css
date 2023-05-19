@@ -1,13 +1,18 @@
 @charset "UTF-8";
 
 /* Media Breakpoints */
-/* // Small devices (landscape phones, 576px and up) */
+/* // Extra Small devices (landscape phones, 575.98px) */
 @media (max-width: 575.98px) { 
     .btn-custom{
-        margin: 10px 15px;
+        margin: 10px 15px; font-size: 1em;
+    }
+
+    footer ul li{
+        float: left; margin: 0 5px;
     }
  }
 
+/* // Small devices (landscape phones, 576px and up) */ 
 @media (min-width: 576px) and (max-width: 767.98px){ 
     h1{
         font-size: 3em;
