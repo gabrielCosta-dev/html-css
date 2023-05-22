@@ -108,6 +108,10 @@ nav.navbar-transparente{
     padding-left: 80px;
 }
 
+.carousel-control-next, .carousel-control-prev{
+    width: 5%;
+}
+
 /* Rodapé */
 footer{
     background-color: #000;
