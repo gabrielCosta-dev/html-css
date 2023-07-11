@@ -105,25 +105,4 @@ function limpar() {
   document.getElementById('media-exatas').innerHTML = ''
   document.getElementById('media-humanas').innerHTML = ''
 }
-
-function calcular1() {
-    const areas = ['matematica', 'fisica', 'quimica', 'biologia', 'historia', 'geografia'];
-    let preenchido = false;
-  
-    for (let i = 0; i < areas.length; i++) {
-      const input1 = document.getElementsByClassName(areas[i])[0].value;
-      const input2 = document.getElementsByClassName(areas[i])[1].value;
-  
-      if (input1 !== '' && input2 !== '') {
-        preenchido = true;
-        break;
-      }
-    }
-  
-    if (preenchido) {
-      alert('Tudo OK');
-    } else {
-      alert('Erro 404');
-    }
-  }
   
